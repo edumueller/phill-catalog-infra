@@ -27,7 +27,7 @@ spec:
             - name: REDIS_HOST
               value: worker-redis-srv
             - name: SUPPLY_CHAIN_URL
-              value: https://ev5uwiczj6.execute-api.eu-central-1.amazonaws.com/test
+              value: "https://ev5uwiczj6.execute-api.eu-central-1.amazonaws.com/test"
 ---
 apiVersion: v1
 kind: Service
