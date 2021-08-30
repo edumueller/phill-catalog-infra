@@ -21,6 +21,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: products-srv
+                name: catalog-srv
                 port:
                   number: 3000
